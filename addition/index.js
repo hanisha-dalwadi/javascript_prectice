@@ -1,4 +1,4 @@
-function addition(){
+      function addition(){
     let a = parseInt(document.getElementById("v1").value);
      let b =parseInt (document.getElementById("v2").value);
 

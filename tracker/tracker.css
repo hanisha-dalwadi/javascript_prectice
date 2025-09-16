@@ -1,0 +1,106 @@
+header{
+    font-size: 30px;
+    color: white;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    height: 620px;
+   width: 350px;
+   display: flex;
+   flex-direction: column;
+     border: 1px solid black;
+}
+.m1{
+    display: flex;
+    justify-content: center;
+}
+.b1 p{
+    font-size: 25px;
+   display: flex;
+   justify-content: start;
+   color: rgba(0, 0, 0, 0.801);
+   line-height: 0px;
+   align-items: start;
+}
+.b2 p{
+    font-size: 25px;
+   display: flex;
+   justify-content: start;
+   line-height: 0px;
+   color: rgb(0, 0, 0);
+}
+.b11{
+   padding-top: 15px;
+}
+.A{
+    display: flex;
+    justify-content: center;
+    height: 110px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgb(243, 240, 240);
+    box-shadow: 15px;
+}
+.a11{
+   display: flex;
+   justify-content: center;
+}
+.income h6{
+    font-size: 20px;
+    line-height: 0px;
+    padding-right: 20px;
+}
+.income {
+    border-right: 2px solid black;
+    height: 50px; 
+}
+.income p{
+    font-size: 20px;
+    color: rgba(108, 231, 71, 0.896);
+     line-height: 0px;
+}
+.expence h6{
+     font-size: 20px;
+    color:black;
+     line-height: 0px;
+}
+.expence p{
+    font-size: 20px;
+    color:rgb(232, 7, 7);
+     line-height: 0px;
+}
+.expence{
+    padding-left: 10px;
+}
+.history{
+    display: flex;
+    justify-content: start;   
+}
+.history h5{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.852);
+     border-bottom: 2px solid grey;
+    width: 350px;
+    padding-left: 0px;
+    line-height: 35px;
+}
+.course{
+    height: 40px;
+    width: 340px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+}
+.course h6{
+    font-size: 20px;
+    padding-right: 200px;
+}
+.course p{
+    font-size: 20px;
+    padding-right: 20px;
+}
