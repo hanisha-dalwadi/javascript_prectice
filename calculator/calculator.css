@@ -1,0 +1,127 @@
+/* .main{
+    height: 570px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+} */
+.m1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.small{
+     height: 500px;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 40px;
+     display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+    flex-direction: column;
+    align-items: center ;
+
+
+   
+}
+.big{
+    height: 50px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 40px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background: #dfeaf6;
+    font-weight: bold;
+     box-shadow: inset 5px 5px 12px rgba(0,0,0,0.12),
+              inset -5px -5px 12px rgba(255,255,255,0.9);
+   
+}
+.big p{
+    font-size: 35px;
+    padding-right: 15px;
+     
+}
+.a1{
+    height: 50px;
+    width: 350px;
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.a1 button{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+      background: #e6f0fa; 
+      font-weight: bold;
+       box-shadow: 
+    6px 6px 12px rgba(0,0,0,0.15),   /* darker bottom-right */
+    -6px -6px 12px rgba(255,255,255,0.9); 
+
+}
+.a2{
+    height: 50px;
+    width: 350px;
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.a2 button{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+      background: #e6f0fa; 
+      font-weight: bold;
+
+}
+.a3{
+    height: 50px;
+    width: 350px;
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.a3 button{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+      background: #e6f0fa; 
+      font-weight: bold;
+
+}
+.a4{
+    height: 50px;
+    width: 350px;
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.a4 button{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+      background: #e6f0fa; 
+      font-weight: bold;
+
+}
+.a44 button{
+     height: 50px;
+    width: 150px;
+    border-radius:80px;
+      background:rgba(128, 0, 128, 0.247);
+      font-weight: bold;
+
+}
+
+

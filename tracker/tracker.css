@@ -8,14 +8,17 @@ header{
 }
 .main{
     height: 620px;
-   width: 350px;
+   width: 500px;
    display: flex;
    flex-direction: column;
-     border: 1px solid black;
+     
 }
 .m1{
     display: flex;
     justify-content: center;
+     background-color: rgba(20, 19, 19, 0.071);
+     height: 645px;
+  
 }
 .b1 p{
     font-size: 25px;
@@ -34,73 +37,117 @@ header{
 }
 .b11{
    padding-top: 15px;
+   line-height: 30px;
 }
 .A{
     display: flex;
     justify-content: center;
     height: 110px;
-    width: 300px;
+    width: 450px;
     border-radius: 20px;
     background-color: rgb(243, 240, 240);
     box-shadow: 15px;
+   gap: 50px;
+   align-items: center;
+
+}
+.i1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.income{
+    font-size: 30px;
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.incomee{
+     font-size: 30px;
+   
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: green;
+}
+.e1{
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-left: 2px solid grey;
+    height: 80px;
+
+  
+}
+.Expence{
+     font-size: 30px;
+    padding-left: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.expence{
+       font-size: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: red;
 }
 .a11{
    display: flex;
    justify-content: center;
 }
-.income h6{
-    font-size: 20px;
+.trans{
+    border-bottom: 2px solid grey;
+   width: 450px;
     line-height: 0px;
-    padding-right: 20px;
 }
-.income {
-    border-right: 2px solid black;
-    height: 50px; 
-}
-.income p{
+.namee{
+    line-height: 25px;
+    padding-top: 15px;
     font-size: 20px;
-    color: rgba(108, 231, 71, 0.896);
-     line-height: 0px;
 }
-.expence h6{
-     font-size: 20px;
-    color:black;
-     line-height: 0px;
+.namee input{
+    font-size: 15px;
+  width: 450px;
+    border-radius: 4px;
+    border-color: black;
+    
 }
-.expence p{
-    font-size: 20px;
-    color:rgb(232, 7, 7);
-     line-height: 0px;
-}
-.expence{
+.namee ::placeholder{
+    color:rgba(0, 0, 0, 0.5);
     padding-left: 10px;
+    background-color: white;
 }
-.history{
-    display: flex;
-    justify-content: start;   
-}
-.history h5{
-    font-size: 25px;
-    color: rgba(0, 0, 0, 0.852);
-     border-bottom: 2px solid grey;
-    width: 350px;
-    padding-left: 0px;
-    line-height: 35px;
-}
-.course{
-    height: 40px;
-    width: 340px;
-    display: flex;
-    flex-direction: row;
-    border: 2px solid black;
-    justify-content: center;
-    align-items: center;
-}
-.course h6{
+.amount{
+    line-height: 25px;
+     padding-top: 15px;
     font-size: 20px;
-    padding-right: 200px;
 }
-.course p{
-    font-size: 20px;
-    padding-right: 20px;
+.amount input{
+      font-size: 15px;
+   width: 450px;
+    border-radius: 4px;
+    border-color: black;
 }
+.amount ::placeholder{
+   color:rgba(0, 0, 0, 0.5);
+    padding-left: 10px;
+    background-color: white;
+}
+.b1 button{
+   height: 30px;
+   width: 455px;
+   background-color: blue;
+   color: white;
+}
+.b1{
+    padding-top: 20px;
+}
+
